@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Smooth blue–purple travel gradient -->
+    <gradient
+        android:startColor="#6A11CB"
+    android:centerColor="#2575FC"
+    android:endColor="#00f2fe"
+    android:angle="135"
+    android:type="linear"
+    android:useLevel="false" />
+
+    <!-- Optional rounded corners for cards/background reuse -->
+    <corners android:radius="0dp" />
+
+</shape>
